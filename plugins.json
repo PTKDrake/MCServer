@@ -1,0 +1,25 @@
+{
+  "plugin_name": "MCServer",
+  "plugin_scope": "mcserver",
+  "plugin_exec": "mcserver.js",
+  "command_map": {
+    "mcbedrock": {
+      "hargs": "<ip> [port]",
+      "hdesc": "Xem thông tin về server minecraft bedrock edition.",
+      "fscope": "bedrock",
+      "compatibly": 0
+    },
+    "mcjava": {
+      "hargs": "<ip> [port]",
+      "hdesc": "Xem thông tin về server minecraft java edition.",
+      "fscope": "java",
+      "compatibly": 0
+    }
+  },
+  "author": "PTKDrake",
+  "version": "0.1",
+  "node_depends": {
+    "minecraft-server-util": ""
+  },
+  "complied_for": "0.3.0"
+}
